@@ -7,9 +7,6 @@ const footer = `
             <a href="https://engineering.buffalo.edu/">
                 <img src="/assets/ubseas.png" alt="">
             </a>
-            <a href="https://www.sa.buffalo.edu/">
-                <img src="/assets/sa.png" alt="">
-            </a>
             <a href="https://www.acm.org/">
                 <img src="/assets/acm.png" alt="">
             </a>
