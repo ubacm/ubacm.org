@@ -11,7 +11,7 @@ const footer = `
                 <img src="/assets/acm.png" alt="">
             </a>
         </div>
-        <p style="text-align: center; color: white; padding-bottom: 10px;">
+        <p style="text-align: center; color: white; padding-bottom: 10px; margin: 0;">
             &copy; 2024 UB ACM
         </p>
     </footer>
