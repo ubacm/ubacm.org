@@ -4,7 +4,7 @@ const header = `
             <img src="/assets/ubacm_bull.png" alt="" height="100">
             <h1 style="font-size: 40px;">UB ACM</h1>
         </div>
-        <h3>Computer Science by students for students</h3>
+        <h3>Computer Science <br> by students for students</h3>
     </div>
 `;
 

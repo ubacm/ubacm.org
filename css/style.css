@@ -11,6 +11,20 @@ body {
     font-family: roboto;
 }
 
+main {
+    background-color:hsla(0,0%,100%,1);
+    /* background-image:
+        radial-gradient(at 49% 58%, hsla(285,75%,53%,0.42) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, hsla(189,75%,53%,0.92) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(240,88%,62%,0.8) 0px, transparent 50%); */
+    background-image: linear-gradient(to right, #fff, #bbddfc);
+    background-image: linear-gradient(110deg, #fff, #bbddfc);
+}
+
+main h1 {
+    margin: 0;
+}
+
 .banner {
     background-color: #2a91d6;
     text-align: center;
@@ -29,9 +43,23 @@ footer div {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: auto 20%;
 }
 
 footer img {
     height: 40px;
     padding: 10px 15px;
+}
+
+
+div {
+    text-align: center;
+}
+
+main > div {
+    padding: 40px 10vw;
+}
+
+.socialWidget {
+    margin: auto 10px;
 }
