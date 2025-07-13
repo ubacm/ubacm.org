@@ -5,7 +5,6 @@ set -e
 REMOTE=$(git remote get-url origin)
 DEPLOY_BRANCH="gh-pages"
 CLIENT_DIR="client"
-DEPLOY_DIR="client/dist"  # Build output is inside client folder
 
 echo "Starting deployment to ubacm.org..."
 
@@ -47,28 +46,25 @@ fi
 
 # Clean previous deployment
 echo "Removing previous deployment..."
-rm -rf dist || true
+rm -rf build || true
 
 # Build the project
-echo "🔨 Building deployment..."
+echo "Building deployment..."
 if ! $BUILD_COMMAND; then
     echo "Failed to build deployment, exiting."
     exit 1
 fi
 
 # Check if build directory exists
-if ! [ -d "dist" ]; then
-    echo "Build directory 'dist' not found. Check your build configuration."
+if ! [ -d "build" ]; then
+    echo "Build directory 'build' not found. Check your build configuration."
     exit 1
 fi
 
 # Navigate to build directory
-cd dist
+cd build
 
-# Go back to project root to get git remote
-PROJECT_ROOT="../../"
-
-echo "🔧 Initializing git in build directory..."
+echo "Initializing git in build directory..."
 git init . -b gh-pages
 git remote add origin $REMOTE
 
@@ -82,7 +78,7 @@ git commit -m "Deployment to ubacm.org - $(date)"
 
 # Push to gh-pages branch
 if git push --force origin gh-pages; then
-    echo "Deployment successful"
+    echo "Deployment successful!"
     echo "Your site will be available at: https://ubacm.org"
     echo "Note: It may take a few minutes for changes to appear"
 else
