@@ -64,6 +64,9 @@ fi
 # Navigate to build directory
 cd build
 
+# Create CNAME file for custom domain
+echo "ubacm.org" > CNAME
+
 echo "Initializing git in build directory..."
 git init . -b gh-pages
 git remote add origin $REMOTE
