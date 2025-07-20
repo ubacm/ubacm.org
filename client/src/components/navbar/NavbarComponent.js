@@ -1,4 +1,4 @@
-import { FaDiscord, FaInstagram, FaBars, FaTimes } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaBars, FaTimes, FaGithub } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
@@ -24,6 +24,10 @@ const Navbar = () => {
       href: "https://www.instagram.com/ubacm/",
       icon: FaInstagram,
     },
+    {
+      href: "https://github.com/ubacm",
+      icon: FaGithub
+    }
   ];
 
   return (

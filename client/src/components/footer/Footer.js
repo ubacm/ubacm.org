@@ -1,6 +1,5 @@
-import React from "react";
 import { Mail, MapPin, Calendar, Code } from "lucide-react";
-import { FaDiscord, FaInstagram } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaGithub } from "react-icons/fa";
 import { footerStyles } from "./footerStyles";
 
 const Footer = () => {
@@ -16,13 +15,19 @@ const Footer = () => {
       href: "https://www.instagram.com/ubacm/",
       label: "Instagram",
     },
+    ,
+    {
+      href: "https://github.com/ubacm",
+      icon: FaGithub,
+      label: "Github",
+    }
   ];
 
   const quickLinks = [
-    { name: "About Us", href: "#about" },
-    { name: "Events", href: "#events" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/" },
+    { name: "Eboard", href: "/eboard" },
+    { name: "Events", href: "/events" },
+    { name: "Resources", href: "/resources" },
   ];
 
   return (
@@ -31,7 +36,6 @@ const Footer = () => {
 
       <div style={footerStyles.container}>
         <div style={footerStyles.grid}>
-
           <div style={{ gridColumn: "span 2" }}>
             <div style={footerStyles.logoContainer}>
               <div style={footerStyles.logo}>
