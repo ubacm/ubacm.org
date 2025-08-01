@@ -100,3 +100,7 @@ To update the main landing page carousel images:
 - Compress images before uploading to improve load times
 - Ensure unique IDs when adding new events or e-board members
 
+## Potential Future To-Dos
+
+- Rn the website is purely static, might be good to add a database or CMS integration
+- Working on a potential "About" page for more details of what ACM does
