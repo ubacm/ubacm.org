@@ -16,6 +16,9 @@ import spring_gbm from "../assets/events/2024-2025/spring_gbm.jpg";
 import techbuffalo from "../assets/events/2024-2025/techbuffalo.jpg";
 import swe_panel from "../assets/events/2024-2025/swe_panel.jpg";
 
+// 2025 - 2026 images:
+
+import fall_gbm from "../assets/events/2025-2026/fall_gbm.png";
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -27,14 +30,23 @@ export const categories = [
 export const eventsData = {
   // for each category id !!!
   upcoming: [
+    // {
+    //   id: 1,
+    //   name: "No Upcoming Events Yet",
+    //   time: "N/A",
+    //   location: "N/A",
+    //   description: "Look out for our discord and instagram updates!",
+    //   poster:
+    //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
+    // },
     {
       id: 1,
-      name: "No Upcoming Events Yet",
-      time: "N/A",
-      location: "N/A",
-      description: "Look out for our discord and instagram updates!",
-      poster:
-        "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
+      name: "Fall GBM",
+      time: "September 10, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
+      poster: fall_gbm,
     },
   ],
   "2023-2024": [
@@ -170,12 +182,12 @@ export const eventsData = {
   "2025-2026": [
     {
       id: 1,
-      name: "No Events Yet",
-      time: "N/A",
-      location: "N/A",
-      description: "Look out for our discord and instagram updates!",
-      poster:
-        "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
+      name: "Fall GBM",
+      time: "September 10, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
+      poster: fall_gbm,
     },
   ],
 };
