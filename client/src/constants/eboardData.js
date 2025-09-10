@@ -14,6 +14,11 @@ import vaishnavi from "../assets/eboard/2024-2025/Vaishnavi_Lokhande.jpg";
 import ehsanul from "../assets/eboard/2024-2025/Ehsanul_Haque.jpeg";
 import aaron from "../assets/eboard/2024-2025/Aaron_Li.jpg";
 
+// 2025 - 2026 images :
+import samuel from "../assets/eboard/2025-2026/samuel_eboard.png";
+import rodney from "../assets/eboard/2025-2026/rodney_eboard.png";
+import jack from  "../assets/eboard/2025-2026/jack_eboard.png";
+
 export const eBoardData = {
   "2023-2024": [
     {
@@ -121,9 +126,41 @@ export const eBoardData = {
   "2025-2026": [
     {
       id: 10,
-      name: "Coming Soon",
+      name: "Alexandra Gelinas",
       role: "President",
-      linkedin: "#",
+      image: alex,
+      linkedin: "https://www.linkedin.com/in/ajgelinas/",
     },
+  {
+    id: 11,
+    name: "Vaishnavi Lokhande",
+    role: "Public Relations Coordinator",
+    image: vaishnavi,
+    linkedin: "https://www.linkedin.com/in/vaishnavi-lokhande000/",
+  },
+  {
+    id: 12,
+    name: "Samuel Wenkins",
+    role: "Software Engineering Chair",
+    image: samuel,
+  },
+  {
+    id: 13,
+    name: "Jack Walsh",
+    role: "Events Coordinator",
+    image: jack
+  },
+  {
+    id: 14,
+    name: "Rodney Garnett",
+    role: "Treasurer",
+    image: rodney
+  },
+  {
+    id: 15,
+    name: "Mafruha Manal",
+    role: "Executive Member",
+    image: mafruha
+  }
   ],
 };
