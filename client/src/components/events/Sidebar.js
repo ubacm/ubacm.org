@@ -20,6 +20,12 @@ const Sidebar = ({
     setSelectedCategory(categoryId);
   };
 
+  const sortedCategories = [...categories].sort((a, b) => {
+    const yearA = parseInt(a.label.match(/\d{4}/)?.[0] || a.id);
+    const yearB = parseInt(b.label.match(/\d{4}/)?.[0] || b.id);
+    return yearB - yearA;
+  });
+
   if (isMobile) {
     return (
       <div style={eventsStyles.mobileSidebar}>
@@ -31,7 +37,7 @@ const Sidebar = ({
         </h2>
 
         <div style={eventsStyles.mobileYearContainer}>
-          {categories.map((category) => (
+          {sortedCategories.map((category) => (
             <button
               key={category.id}
               style={{
@@ -70,7 +76,7 @@ const Sidebar = ({
         Academic Years
       </h2>
 
-      {categories.map((category) => (
+      {sortedCategories.map((category) => (
         <button
           key={category.id}
           style={{

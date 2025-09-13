@@ -1,5 +1,3 @@
-// heroStyles.js
-
 export const heroStyles = {
   container: {
     display: "flex",

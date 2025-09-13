@@ -140,27 +140,38 @@ export const eBoardData = {
   },
   {
     id: 12,
-    name: "Samuel Wenkins",
+    name: "Samuel Winkens",
     role: "Software Engineering Chair",
     image: samuel,
+    linkedin: "https://www.linkedin.com/in/sam-winkens/"
   },
   {
     id: 13,
     name: "Jack Walsh",
     role: "Events Coordinator",
-    image: jack
+    image: jack,
+    linkedin: "https://www.linkedin.com/in/jackwalsh27/"
   },
   {
     id: 14,
     name: "Rodney Garnett",
-    role: "Treasurer",
-    image: rodney
+    role: "Treasurer", 
+    image: rodney,
+    linkedin: "https://www.linkedin.com/in/rodney-garnett-8830a4276/",
   },
   {
     id: 15,
     name: "Mafruha Manal",
     role: "Executive Member",
-    image: mafruha
-  }
-  ],
+    image: mafruha,
+    linkedin: "https://www.linkedin.com/in/mafruhamanal/",
+  },
+  {
+      id: 16,
+      name: "Ehsanul Haque",
+      role: "Secretary",
+      image: ehsanul,
+      linkedin: "https://www.linkedin.com/in/ehsanul-haque-047456265/",
+    },
+  ]
 };

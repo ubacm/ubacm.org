@@ -1,4 +1,4 @@
-import profilePic from "../../assets/acmlogo.png";
+import acm8 from "../../assets/acmlogo.png";
 import acm1 from "../../assets/hero/acm 1.jpg";
 import acm2 from "../../assets/hero/acm 2.jpeg";
 import acm3 from "../../assets/hero/acm 3.jpg";
@@ -36,7 +36,7 @@ const Hero = () => {
                 >
                   <div style={heroStyles.logoContainer}>
                     <img
-                      src={profilePic}
+                      src={acm8}
                       alt="Profile"
                       style={heroStyles.logo}
                     />
@@ -85,7 +85,7 @@ const Hero = () => {
               >
                 <div style={heroStyles.logoContainer}>
                   <img
-                    src={profilePic}
+                    src={acm8}
                     alt="Profile"
                     style={heroStyles.mobileLogo}
                   />

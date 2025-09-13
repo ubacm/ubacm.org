@@ -5,8 +5,8 @@ import { eBoardStyles, mediaStyles } from "./eboardStyles";
 import ProfileCard from "./ProfileCard";
 
 const EBoard = () => {
-  const [selectedYear, setSelectedYear] = useState("2024-2025");
-  const years = ["2023-2024", "2024-2025", "2025-2026"];
+  const [selectedYear, setSelectedYear] = useState("2025-2026");
+  const years = ["2025-2026", "2024-2025", "2023-2024"];
 
   return (
     <>
@@ -47,7 +47,6 @@ const EBoard = () => {
               </button>
             ))}
 
-            {/* Desktop Stats */}
             <div style={eBoardStyles.statsBox}>
               <p style={eBoardStyles.statsText}>Board Members</p>
               <p style={eBoardStyles.statsNumber}>
@@ -60,7 +59,6 @@ const EBoard = () => {
               <p style={eBoardStyles.statsNumber}>{selectedYear}</p>
             </div>
 
-            {/* Apply Button */}
             <button
               style={eBoardStyles.applyButton}
               onMouseEnter={(e) => {
@@ -76,7 +74,6 @@ const EBoard = () => {
                   "0 2px 4px -1px rgba(0, 0, 0, 0.1)";
               }}
               onClick={() => {
-                // Add the application link here :3
                 window.open("https://forms.office.com/r/jwPrMgSGDR", "_blank");
               }}
             >
