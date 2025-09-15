@@ -18,7 +18,6 @@ const Hero = () => {
       <style>{mediaStyles}</style>
       <div className="desktop-hero" style={heroStyles.container}>
         <div style={heroStyles.contentWrapper}>
-
           <div style={heroStyles.leftSide}>
             <div style={heroStyles.leftContent}>
               <div style={heroStyles.centerContent}>
@@ -35,11 +34,7 @@ const Hero = () => {
                   delay={0.0}
                 >
                   <div style={heroStyles.logoContainer}>
-                    <img
-                      src={acm8}
-                      alt="Profile"
-                      style={heroStyles.logo}
-                    />
+                    <img src={acm8} alt="Profile" style={heroStyles.logo} />
                   </div>
                   <div style={heroStyles.titleText}>
                     Association for Computing Machinery @ UB
@@ -51,7 +46,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-
 
           <div style={heroStyles.rightSide}>
             <AnimatedList
@@ -67,7 +61,6 @@ const Hero = () => {
       </div>
 
       <div className="mobile-hero" style={heroStyles.mobileContainer}>
-
         <div style={heroStyles.mobileLeftSide}>
           <div style={heroStyles.mobileLeftContent}>
             <div style={heroStyles.centerContent}>
@@ -84,11 +77,7 @@ const Hero = () => {
                 delay={0.0}
               >
                 <div style={heroStyles.logoContainer}>
-                  <img
-                    src={acm8}
-                    alt="Profile"
-                    style={heroStyles.mobileLogo}
-                  />
+                  <img src={acm8} alt="Profile" style={heroStyles.mobileLogo} />
                 </div>
                 <div style={heroStyles.mobileTitleText}>
                   Association for Computing Machinery @ UB

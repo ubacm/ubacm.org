@@ -19,6 +19,8 @@ import swe_panel from "../assets/events/2024-2025/swe_panel.jpg";
 // 2025 - 2026 images:
 
 import fall_gbm from "../assets/events/2025-2026/fall_gbm.png";
+import cse_resume_workshop from  "../assets/events/2025-2026/cse_resume_workshop.png";
+
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -41,12 +43,12 @@ export const eventsData = {
     // },
     {
       id: 1,
-      name: "Fall GBM",
-      time: "September 10, 2025 - 6:00 PM",
+      name: "CSE Resume Workshop",
+      time: "September 17, 2025 - 6:00 PM",
       location: "Davis 101",
       description:
-        "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
-      poster: fall_gbm,
+        "Master the step-by-step approach to internship applications. Gain insights into what tech recruiters look for when screening resumes. One-on-one resume reviews and feedback.",
+      poster: cse_resume_workshop,
     },
   ],
   "2023-2024": [
@@ -188,6 +190,15 @@ export const eventsData = {
       description:
         "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
       poster: fall_gbm,
+    },
+    {
+      id: 2,
+      name: "CSE Resume Workshop",
+      time: "September 17, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "Master the step-by-step approach to internship applications. Gain insights into what tech recruiters look for when screening resumes. One-on-one resume reviews and feedback.",
+      poster: cse_resume_workshop,
     },
   ],
 };
