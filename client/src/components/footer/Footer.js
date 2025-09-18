@@ -20,7 +20,7 @@ const Footer = () => {
       href: "https://github.com/ubacm",
       icon: FaGithub,
       label: "Github",
-    }
+    },
   ];
 
   const quickLinks = [
@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
               <div style={footerStyles.contactItem}>
                 <Calendar style={footerStyles.icon} />
-                <span>Events on Thursdays 6:00 PM</span>
+                <span>Events on Wednesdays 6:00 PM</span>
               </div>
             </div>
           </div>
