@@ -185,7 +185,7 @@ export const eventsData = {
   "2025-2026": [
     {
       id: 1,
-      name: "Breaking into Tech with Dan Starner",
+      name: "Breaking into Tech w/ Dan Starner",
       time: "October 1, 2025 - 6:00 PM",
       location: "Davis 101",
       description:
