@@ -17,7 +17,7 @@ import aaron from "../assets/eboard/2024-2025/Aaron_Li.jpg";
 // 2025 - 2026 images :
 import samuel from "../assets/eboard/2025-2026/samuel_eboard.png";
 import rodney from "../assets/eboard/2025-2026/rodney_eboard.png";
-import jack from  "../assets/eboard/2025-2026/jack_eboard.png";
+import jack from "../assets/eboard/2025-2026/jack_eboard.png";
 
 export const eBoardData = {
   "2023-2024": [
@@ -131,47 +131,49 @@ export const eBoardData = {
       image: alex,
       linkedin: "https://www.linkedin.com/in/ajgelinas/",
     },
-  {
-    id: 11,
-    name: "Vaishnavi Lokhande",
-    role: "Public Relations Coordinator",
-    image: vaishnavi,
-    linkedin: "https://www.linkedin.com/in/vaishnavi-lokhande000/",
-  },
-  {
-    id: 12,
-    name: "Samuel Winkens",
-    role: "Software Engineering Chair",
-    image: samuel,
-    linkedin: "https://www.linkedin.com/in/sam-winkens/"
-  },
-  {
-    id: 13,
-    name: "Jack Walsh",
-    role: "Events Coordinator",
-    image: jack,
-    linkedin: "https://www.linkedin.com/in/jackwalsh27/"
-  },
-  {
-    id: 14,
-    name: "Rodney Garnett",
-    role: "Treasurer", 
-    image: rodney,
-    linkedin: "https://www.linkedin.com/in/rodney-garnett-8830a4276/",
-  },
-  {
-    id: 15,
-    name: "Mafruha Manal",
-    role: "Executive Member",
-    image: mafruha,
-    linkedin: "https://www.linkedin.com/in/mafruhamanal/",
-  },
-  {
+    ,
+    {
+      id: 15,
+      name: "Mafruha Manal",
+      role: "Vice President",
+      image: mafruha,
+      linkedin: "https://www.linkedin.com/in/mafruhamanal/",
+    },
+    {
+      id: 12,
+      name: "Samuel Winkens",
+      role: "Software Engineering Chair",
+      image: samuel,
+      linkedin: "https://www.linkedin.com/in/sam-winkens/",
+    },
+    ,
+    {
+      id: 11,
+      name: "Vaishnavi Lokhande",
+      role: "Public Relations Coordinator",
+      image: vaishnavi,
+      linkedin: "https://www.linkedin.com/in/vaishnavi-lokhande000/",
+    },
+    {
+      id: 13,
+      name: "Jack Walsh",
+      role: "Events Coordinator",
+      image: jack,
+      linkedin: "https://www.linkedin.com/in/jackwalsh27/",
+    },
+    {
+      id: 14,
+      name: "Rodney Garnett",
+      role: "Treasurer",
+      image: rodney,
+      linkedin: "https://www.linkedin.com/in/rodney-garnett-8830a4276/",
+    },
+    {
       id: 16,
       name: "Ehsanul Haque",
       role: "Secretary",
       image: ehsanul,
       linkedin: "https://www.linkedin.com/in/ehsanul-haque-047456265/",
     },
-  ]
+  ],
 };
