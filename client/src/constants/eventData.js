@@ -44,7 +44,7 @@ export const eventsData = {
     // },
     {
       id: 1,
-      name: "Breaking into Tech with Dan Starner",
+      name: "Breaking into Tech w/ Dan Starner",
       time: "October 1, 2025 - 6:00 PM",
       location: "Davis 101",
       description:
@@ -209,7 +209,7 @@ export const eventsData = {
       description:
         "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
       poster: fall_gbm,
-    }
+    },
   ],
 };
 
