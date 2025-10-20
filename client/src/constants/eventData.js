@@ -21,6 +21,7 @@ import swe_panel from "../assets/events/2024-2025/swe_panel.jpg";
 import fall_gbm from "../assets/events/2025-2026/fall_gbm.png";
 import cse_resume_workshop from "../assets/events/2025-2026/cse_resume_workshop.png";
 import breaking_into_tech from "../assets/events/2025-2026/breaking_into_tech.png";
+import tech_interview_workshop from "../assets/events/2025-2026/tech_interview_workshop.png";
 
 // Categories
 export const categories = [
@@ -44,12 +45,12 @@ export const eventsData = {
     // },
     {
       id: 1,
-      name: "Breaking into Tech w/ Dan Starner",
-      time: "October 1, 2025 - 6:00 PM",
+      name: "Technical Interview Workshop",
+      time: "October 22, 2025 - 6:00 PM",
       location: "Davis 101",
       description:
-        "Discover the Strategies That Helped Dan Starner Secure Roles at Bloomberg, Heroku, and Stripe.",
-      poster: breaking_into_tech,
+        "Master your technical interview prep with strategies to help you ace your coding interviews",
+      poster: tech_interview_workshop,
     },
   ],
   "2023-2024": [
@@ -185,6 +186,15 @@ export const eventsData = {
   "2025-2026": [
     {
       id: 1,
+      name: "Technical Interview Workshop",
+      time: "October 22, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "Master your technical interview prep with strategies to help you ace your coding interviews",
+      poster: tech_interview_workshop,
+    },
+    {
+      id: 2,
       name: "Breaking into Tech w/ Dan Starner",
       time: "October 1, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -193,7 +203,7 @@ export const eventsData = {
       poster: breaking_into_tech,
     },
     {
-      id: 2,
+      id: 3,
       name: "CSE Resume Workshop",
       time: "September 17, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -202,7 +212,7 @@ export const eventsData = {
       poster: cse_resume_workshop,
     },
     {
-      id: 3,
+      id: 4,
       name: "Fall GBM",
       time: "September 10, 2025 - 6:00 PM",
       location: "Davis 101",
