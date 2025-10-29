@@ -42,15 +42,6 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
-    {
-      id: 1,
-      name: "Breaking into Tech w/ Dan Starner",
-      time: "October 1, 2025 - 6:00 PM",
-      location: "Davis 101",
-      description:
-        "Discover the Strategies That Helped Dan Starner Secure Roles at Bloomberg, Heroku, and Stripe.",
-      poster: breaking_into_tech,
-    },
   ],
   "2023-2024": [
     {
