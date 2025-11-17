@@ -22,6 +22,7 @@ import fall_gbm from "../assets/events/2025-2026/fall_gbm.png";
 import cse_resume_workshop from "../assets/events/2025-2026/cse_resume_workshop.png";
 import breaking_into_tech from "../assets/events/2025-2026/recap_breaking_into_tech.jpg";
 import techical_interview from "../assets/events/2025-2026/recap_technical_interview.png";
+import zero_to_crud_hero from "../assets/events/2025-2026/zero_to_crud_hero.png";
 
 // Categories
 export const categories = [
@@ -43,6 +44,15 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
+    {
+      id: 1,
+      name: "From Zero to Crud Hero",
+      time: "November 19, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "A guided workshop to get you started on building a web app side project from scratch! Get hands-on experience with web development",
+      poster: zero_to_crud_hero,
+    }
   ],
   "2023-2024": [
     {
