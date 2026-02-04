@@ -178,6 +178,15 @@ export const eventsData = {
   "2025-2026": [
     {
       id: 1,
+      name: "From Zero to Crud Hero",
+      time: "November 19, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "A guided workshop to get you started on building a web app side project from scratch! Get hands-on experience with web development.",
+      poster: zero_to_crud_hero,
+    },
+    {
+      id: 2,
       name: "Technical Interview Workshop",
       time: "October 22, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -186,7 +195,7 @@ export const eventsData = {
       poster: techical_interview,
     },
     {
-      id: 2,
+      id: 3,
       name: "Breaking into Tech w/ Dan Starner",
       time: "October 1, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -195,7 +204,7 @@ export const eventsData = {
       poster: breaking_into_tech,
     },
     {
-      id: 3,
+      id: 4,
       name: "CSE Resume Workshop",
       time: "September 17, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -204,7 +213,7 @@ export const eventsData = {
       poster: cse_resume_workshop,
     },
     {
-      id: 4,
+      id: 5,
       name: "Fall GBM",
       time: "September 10, 2025 - 6:00 PM",
       location: "Davis 101",
