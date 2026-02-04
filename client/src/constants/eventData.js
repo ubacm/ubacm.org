@@ -20,8 +20,9 @@ import swe_panel from "../assets/events/2024-2025/swe_panel.jpg";
 
 import fall_gbm from "../assets/events/2025-2026/fall_gbm.png";
 import cse_resume_workshop from "../assets/events/2025-2026/cse_resume_workshop.png";
-import breaking_into_tech from "../assets/events/2025-2026/breaking_into_tech.png";
-import tech_interview_workshop from "../assets/events/2025-2026/tech_interview_workshop.png";
+import breaking_into_tech from "../assets/events/2025-2026/recap_breaking_into_tech.jpg";
+import techical_interview from "../assets/events/2025-2026/recap_technical_interview.png";
+import zero_to_crud_hero from "../assets/events/2025-2026/zero_to_crud_hero.png";
 
 // Categories
 export const categories = [
@@ -43,15 +44,6 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
-    {
-      id: 1,
-      name: "Technical Interview Workshop",
-      time: "October 22, 2025 - 6:00 PM",
-      location: "Davis 101",
-      description:
-        "Master your technical interview prep with strategies to help you ace your coding interviews",
-      poster: tech_interview_workshop,
-    },
   ],
   "2023-2024": [
     {
@@ -186,15 +178,24 @@ export const eventsData = {
   "2025-2026": [
     {
       id: 1,
+      name: "From Zero to Crud Hero",
+      time: "November 19, 2025 - 6:00 PM",
+      location: "Davis 101",
+      description:
+        "A guided workshop to get you started on building a web app side project from scratch! Get hands-on experience with web development.",
+      poster: zero_to_crud_hero,
+    },
+    {
+      id: 2,
       name: "Technical Interview Workshop",
       time: "October 22, 2025 - 6:00 PM",
       location: "Davis 101",
       description:
-        "Master your technical interview prep with strategies to help you ace your coding interviews",
-      poster: tech_interview_workshop,
+        "Master your technical interview prep with strategies to help you ace your coding interviews.",
+      poster: techical_interview,
     },
     {
-      id: 2,
+      id: 3,
       name: "Breaking into Tech w/ Dan Starner",
       time: "October 1, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -203,7 +204,7 @@ export const eventsData = {
       poster: breaking_into_tech,
     },
     {
-      id: 3,
+      id: 4,
       name: "CSE Resume Workshop",
       time: "September 17, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -212,7 +213,7 @@ export const eventsData = {
       poster: cse_resume_workshop,
     },
     {
-      id: 4,
+      id: 5,
       name: "Fall GBM",
       time: "September 10, 2025 - 6:00 PM",
       location: "Davis 101",

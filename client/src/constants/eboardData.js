@@ -18,6 +18,7 @@ import aaron from "../assets/eboard/2024-2025/Aaron_Li.jpg";
 import samuel from "../assets/eboard/2025-2026/samuel_eboard.png";
 import rodney from "../assets/eboard/2025-2026/rodney_eboard.png";
 import jack from "../assets/eboard/2025-2026/jack_eboard.png";
+import mahin from "../assets/eboard/2025-2026/mahin_eboard.png"
 
 export const eBoardData = {
   "2023-2024": [
@@ -125,7 +126,7 @@ export const eBoardData = {
   ],
   "2025-2026": [
     {
-      id: 10,
+      id: 8,
       name: "Alexandra Gelinas",
       role: "President",
       image: alex,
@@ -133,14 +134,14 @@ export const eBoardData = {
     },
     ,
     {
-      id: 15,
+      id: 9,
       name: "Mafruha Manal",
       role: "Vice President",
       image: mafruha,
       linkedin: "https://www.linkedin.com/in/mafruhamanal/",
     },
     {
-      id: 12,
+      id: 10,
       name: "Samuel Winkens",
       role: "Software Engineering Chair",
       image: samuel,
@@ -155,25 +156,25 @@ export const eBoardData = {
       linkedin: "https://www.linkedin.com/in/vaishnavi-lokhande000/",
     },
     {
-      id: 13,
+      id: 12,
       name: "Jack Walsh",
       role: "Events Coordinator",
       image: jack,
       linkedin: "https://www.linkedin.com/in/jackwalsh27/",
     },
     {
-      id: 14,
+      id: 13,
       name: "Rodney Garnett",
       role: "Treasurer",
       image: rodney,
       linkedin: "https://www.linkedin.com/in/rodney-garnett-8830a4276/",
     },
     {
-      id: 16,
-      name: "Ehsanul Haque",
-      role: "Secretary",
-      image: ehsanul,
-      linkedin: "https://www.linkedin.com/in/ehsanul-haque-047456265/",
+      id: 14,
+      name: "Mahin Ahmed",
+      role: "Undergrad Representative",
+      image: mahin,
+      linkedin: "https://www.linkedin.com/in/mahin-ahmed-910121307/",
     },
   ],
 };
