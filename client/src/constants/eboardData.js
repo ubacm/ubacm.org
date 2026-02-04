@@ -147,7 +147,6 @@ export const eBoardData = {
       image: samuel,
       linkedin: "https://www.linkedin.com/in/sam-winkens/",
     },
-    ,
     {
       id: 11,
       name: "Vaishnavi Lokhande",

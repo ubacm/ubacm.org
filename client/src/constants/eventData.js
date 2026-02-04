@@ -24,6 +24,7 @@ import breaking_into_tech from "../assets/events/2025-2026/recap_breaking_into_t
 import techical_interview from "../assets/events/2025-2026/recap_technical_interview.png";
 import zero_to_crud_hero from "../assets/events/2025-2026/zero_to_crud_hero.png";
 
+import acm_spring_gbm_2026 from "../assets/events/2025-2026/acm_spring_gbm_2026.png";
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -44,6 +45,15 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
+    {
+      id: 1,
+      name: "Spring GBM",
+      time: "February 11, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Play games with CSE peers and learn more about the upcoming events planned for the semester!",
+      poster:
+        acm_spring_gbm_2026,
+    }
   ],
   "2023-2024": [
     {
