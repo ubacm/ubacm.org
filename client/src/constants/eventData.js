@@ -44,15 +44,6 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
-    {
-      id: 1,
-      name: "From Zero to Crud Hero",
-      time: "November 19, 2025 - 6:00 PM",
-      location: "Davis 101",
-      description:
-        "A guided workshop to get you started on building a web app side project from scratch! Get hands-on experience with web development",
-      poster: zero_to_crud_hero,
-    }
   ],
   "2023-2024": [
     {
