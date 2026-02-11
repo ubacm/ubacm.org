@@ -4,8 +4,8 @@ export const heroStyles = {
     flexWrap: "wrap",
     justifyContent: "center",
     alignItems: "center",
-    minHeight: "100vh",
-    marginTop: "-80px",
+    minHeight: "calc(100vh - 80px)",
+    marginTop: "-60px",
   },
 
   contentWrapper: {
@@ -13,63 +13,108 @@ export const heroStyles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+    gap: "80px",
+    padding: "0 40px",
   },
 
   leftSide: {
     flex: 1,
     display: "flex",
     justifyContent: "center",
+    maxWidth: "450px",
   },
 
   leftContent: {
-    paddingBottom: "96px",
-    paddingTop: "80px",
+    paddingBottom: "0px",
+    paddingTop: "0px",
   },
 
   centerContent: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
+    alignItems: "flex-start",
   },
 
   logoContainer: {
     display: "flex",
-    justifyContent: "center",
-    marginBottom: "24px",
+    justifyContent: "flex-start",
+    marginBottom: "20px",
   },
 
   logo: {
-    width: "25%",
+    width: "85px",
     height: "auto",
   },
 
   titleText: {
-    fontWeight: "500",
-    fontSize: "32px",
+    fontWeight: "700",
+    fontSize: "51px",
     letterSpacing: "-0.025em",
-    textAlign: "center",
-    marginBottom: "12px",
-    background: "linear-gradient(to right, #a8eeffff, #658ee6ff, #10276cff)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-    backgroundClip: "text",
+    textAlign: "left",
+    marginBottom: "16px",
+    color: "#1a202c",
+    lineHeight: "1.1",
+    maxWidth: "400px",
   },
 
   subtitleText: {
+    fontSize: "17px",
+    fontWeight: "400",
+    textAlign: "left",
+    color: "#4a5568",
+    marginBottom: "14px",
+    letterSpacing: "0.025em",
+    maxWidth: "400px",
+  },
+
+  descriptionText: {
     fontSize: "16px",
     fontWeight: "400",
-    textAlign: "center",
-    color: "#2d3748",
-    marginBottom: "24px",
-    letterSpacing: "0.025em",
+    textAlign: "left",
+    color: "#718096",
+    marginBottom: "28px",
+    lineHeight: "1.6",
+    maxWidth: "400px",
+  },
+
+  buttonContainer: {
+    display: "flex",
+    gap: "12px",
+    alignItems: "center",
+  },
+
+  primaryButton: {
+    padding: "14px 42px",
+    fontSize: "17px",
+    fontWeight: "600",
+    color: "white",
+    background: "#025cc2",
+    border: "none",
+    borderRadius: "10px",
+    cursor: "pointer",
+    transition: "all 0.2s ease",
+  },
+
+  secondaryButton: {
+    padding: "10px 20px",
+    fontSize: "15px",
+    fontWeight: "500",
+    color: "#3b82f6",
+    background: "transparent",
+    border: "1px solid #e2e8f0",
+    borderRadius: "8px",
+    cursor: "pointer",
+    transition: "all 0.2s ease",
   },
 
   rightSide: {
     flex: 1,
     display: "flex",
     justifyContent: "center",
+    paddingLeft: "100px",
   },
 
+  // Mobile styles
   mobileContainer: {
     display: "flex",
     flexDirection: "column",
@@ -94,31 +139,68 @@ export const heroStyles = {
   },
 
   mobileLogo: {
-    width: "40%",
+    width: "110px",
     height: "auto",
   },
 
   mobileTitleText: {
-    fontWeight: "500",
-    fontSize: "28px",
+    fontWeight: "700",
+    fontSize: "34px",
     letterSpacing: "-0.025em",
-    textAlign: "center",
+    textAlign: "left",
     marginBottom: "12px",
-    background: "linear-gradient(to right, #a8eeffff, #658ee6ff, #10276cff)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-    backgroundClip: "text",
+    color: "#1a202c",
     lineHeight: "1.2",
   },
 
   mobileSubtitleText: {
-    fontSize: "14px",
+    fontSize: "16px",
     fontWeight: "400",
-    textAlign: "center",
-    color: "#2d3748",
-    marginBottom: "24px",
+    textAlign: "left",
+    color: "#4a5568",
+    marginBottom: "12px",
     letterSpacing: "0.025em",
     lineHeight: "1.3",
+  },
+
+  mobileDescriptionText: {
+    fontSize: "14px",
+    fontWeight: "400",
+    textAlign: "left",
+    color: "#718096",
+    marginBottom: "24px",
+    lineHeight: "1.6",
+  },
+
+  mobileButtonContainer: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "12px",
+    width: "100%",
+  },
+
+  mobilePrimaryButton: {
+    padding: "12px 24px",
+    fontSize: "16px",
+    fontWeight: "500",
+    color: "white",
+    background: "#3b82f6",
+    border: "none",
+    borderRadius: "8px",
+    cursor: "pointer",
+    width: "100%",
+  },
+
+  mobileSecondaryButton: {
+    padding: "12px 24px",
+    fontSize: "16px",
+    fontWeight: "500",
+    color: "#3b82f6",
+    background: "transparent",
+    border: "1px solid #e2e8f0",
+    borderRadius: "8px",
+    cursor: "pointer",
+    width: "100%",
   },
 
   mobileRightSide: {
