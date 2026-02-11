@@ -67,7 +67,7 @@ const Hero = () => {
                   </div>
                   <div style={heroStyles.descriptionText}>
                     Join us at ACM, the largest computing community at UB. Learn
-                    and grow together with CSE peers through tech workshops and social
+                    and grow with CSE peers through tech workshops and social
                     events.
                   </div>
                   <div style={heroStyles.buttonContainer}>

@@ -42,7 +42,7 @@ export const heroStyles = {
   },
 
   logo: {
-    width: "85px",
+    width: "100px",
     height: "auto",
   },
 
@@ -68,7 +68,7 @@ export const heroStyles = {
   },
 
   descriptionText: {
-    fontSize: "16px",
+    fontSize: "15px",
     fontWeight: "400",
     textAlign: "left",
     color: "#718096",
@@ -139,7 +139,7 @@ export const heroStyles = {
   },
 
   mobileLogo: {
-    width: "110px",
+    width: "120px",
     height: "auto",
   },
 
