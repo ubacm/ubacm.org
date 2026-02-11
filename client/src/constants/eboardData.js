@@ -18,7 +18,9 @@ import aaron from "../assets/eboard/2024-2025/Aaron_Li.jpg";
 import samuel from "../assets/eboard/2025-2026/samuel_eboard.png";
 import rodney from "../assets/eboard/2025-2026/rodney_eboard.png";
 import jack from "../assets/eboard/2025-2026/jack_eboard.png";
-import mahin from "../assets/eboard/2025-2026/mahin_eboard.png"
+import mahin from "../assets/eboard/2025-2026/mahin_eboard.png";
+import josiah from "../assets/eboard/2025-2026/josiah.png";
+import abou from "../assets/eboard/2025-2026/abou.jpeg";
 
 export const eBoardData = {
   "2023-2024": [
@@ -175,5 +177,19 @@ export const eBoardData = {
       image: mahin,
       linkedin: "https://www.linkedin.com/in/mahin-ahmed-910121307/",
     },
+    {
+      id: 15,
+      name: "Josiah Gray",
+      role: "Undergrad Representative",
+      image: josiah,
+      linkedin: "https://www.linkedin.com/in/josiahgraycs/"
+    },
+    {
+      id: 16,
+      name: "Aboubakary Traore",
+      role: "Undergrad Representative",
+      image: abou,
+      linkedin: "https://www.linkedin.com/in/aboubakary/"
+    }
   ],
 };
