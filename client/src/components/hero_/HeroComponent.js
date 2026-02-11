@@ -10,7 +10,6 @@ import acm10 from "../../assets/hero/acm 9.jpeg";
 import acm11 from "../../assets/hero/acm 10.jpeg";
 import acm12 from "../../assets/hero/acm 11.jpeg";
 
-
 import AnimatedContent from "../AnimatedContent";
 import PhotoGrid from "./Photogrid";
 import { heroStyles, mediaStyles } from "./heroStyles";
@@ -123,8 +122,8 @@ const Hero = () => {
                   Computer Science by Students for Students
                 </div>
                 <div style={heroStyles.mobileDescriptionText}>
-                  Join the largest computing community at UB. Learn, build, and
-                  grow together through workshops, hackathons, and social
+                  Join us at ACM, the largest computing community at UB. Learn
+                  and grow with CSE peers through tech workshops and social
                   events.
                 </div>
                 <div style={heroStyles.mobileButtonContainer}>
