@@ -71,7 +71,7 @@ export const eventsData = {
     {
       id: 3,
       name: "LeetNights - Sliding Window",
-      time: "March 19, 2026 - 6:30 PM",
+      time: "March 26, 2026 - 6:30 PM",
       location: "Knox 14",
       description: "Learn Sliding Window concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
       poster:
