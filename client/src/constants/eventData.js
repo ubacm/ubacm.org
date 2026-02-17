@@ -24,7 +24,12 @@ import breaking_into_tech from "../assets/events/2025-2026/recap_breaking_into_t
 import techical_interview from "../assets/events/2025-2026/recap_technical_interview.png";
 import zero_to_crud_hero from "../assets/events/2025-2026/zero_to_crud_hero.png";
 
-import acm_spring_gbm_2026 from "../assets/events/2025-2026/acm_spring_gbm_2026.png";
+import acm_spring_gbm_2026 from "../assets/events/2025-2026/acm_spring_gbm_26.png";
+import leetnights_week1 from "../assets/events/2025-2026/leetnights_week1.png";
+import leetnights_week2 from "../assets/events/2025-2026/leetnights_week2.png";
+import leetnights_week3 from "../assets/events/2025-2026/leetnights_week3.png";
+import leetnights_week4 from "../assets/events/2025-2026/leetnights_week4.png";
+
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -47,13 +52,49 @@ export const eventsData = {
     // },
     {
       id: 1,
-      name: "Spring GBM",
-      time: "February 11, 2026 - 6:30 PM",
-      location: "Davis 101",
-      description: "Play games with CSE peers and learn more about the upcoming events planned for the semester!",
+      name: "LeetNights - Arrays & Hashing",
+      time: "February 19, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Arrays & Hashing concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
       poster:
-        acm_spring_gbm_2026,
+        leetnights_week1,
+    },
+    {
+      id: 2,
+      name: "LeetNights - Two Pointers",
+      time: "March 5, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Two Pointer concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week2,
+    },
+    {
+      id: 3,
+      name: "LeetNights - Sliding Window",
+      time: "March 19, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Sliding Window concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week3,
+    },
+    {
+      id: 4,
+      name: "LeetNights - Linked List",
+      time: "April 9th, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Linked List concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week4,
+    },{
+      id: 5,
+      name: "LeetNights - Trees",
+      time: "April 23rd, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Tree concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week4,
     }
+
   ],
   "2023-2024": [
     {
@@ -231,6 +272,15 @@ export const eventsData = {
         "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
       poster: fall_gbm,
     },
+    {
+      id: 6,
+      name: "Spring GBM",
+      time: "February 11, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Play games with CSE peers and learn more about the upcoming events planned for the semester!",
+      poster:
+        acm_spring_gbm_2026,
+    }
   ],
 };
 
