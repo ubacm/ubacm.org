@@ -92,7 +92,7 @@ export const eventsData = {
       location: "Knox 14",
       description: "Learn Tree concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
       poster:
-        leetnights_week4,
+        leetnights_week5,
     }
 
   ],
