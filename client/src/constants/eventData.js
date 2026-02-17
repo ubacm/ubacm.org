@@ -29,6 +29,7 @@ import leetnights_week1 from "../assets/events/2025-2026/leetnights_week1.png";
 import leetnights_week2 from "../assets/events/2025-2026/leetnights_week2.png";
 import leetnights_week3 from "../assets/events/2025-2026/leetnights_week3.png";
 import leetnights_week4 from "../assets/events/2025-2026/leetnights_week4.png";
+import leetnights_week5 from "../assets/events/2025-2026/leetnights_week5.png";
 
 // Categories
 export const categories = [
