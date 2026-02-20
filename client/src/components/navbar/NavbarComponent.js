@@ -102,7 +102,7 @@ const Navbar = () => {
             style={navbarStyles.emailContainer}
           >
             <motion.a
-              href="mailto:ubacm@gmail.com"
+              href="mailto:ubacm.org@gmail.com"
               whileHover={{ scale: 1.2, color: "#60a5fa" }}
               whileTap={{ scale: 0.9 }}
               transition={{ duration: 0.2 }}

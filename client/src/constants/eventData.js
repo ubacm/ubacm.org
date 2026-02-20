@@ -25,11 +25,11 @@ import techical_interview from "../assets/events/2025-2026/recap_technical_inter
 import zero_to_crud_hero from "../assets/events/2025-2026/zero_to_crud_hero.png";
 
 import acm_spring_gbm_2026 from "../assets/events/2025-2026/acm_spring_gbm_26.png";
-import leetnights_week1 from "../assets/events/2025-2026/leetnights_week1.png";
 import leetnights_week2 from "../assets/events/2025-2026/leetnights_week2.png";
 import leetnights_week3 from "../assets/events/2025-2026/leetnights_week3.png";
 import leetnights_week4 from "../assets/events/2025-2026/leetnights_week4.png";
 import leetnights_week5 from "../assets/events/2025-2026/leetnights_week5.png";
+import leetnights_week1_recap from "../assets/events/2025-2026/leetnights_week1_recap.png";
 
 // Categories
 export const categories = [
@@ -51,15 +51,7 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
-    {
-      id: 1,
-      name: "LeetNights - Arrays & Hashing",
-      time: "February 19, 2026 - 6:30 PM",
-      location: "Knox 14",
-      description: "Learn Arrays & Hashing concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
-      poster:
-        leetnights_week1,
-    },
+    
     {
       id: 2,
       name: "LeetNights - Two Pointers",
@@ -229,6 +221,24 @@ export const eventsData = {
   ],
   "2025-2026": [
     {
+      id: 7,
+      name: "LeetNights - Arrays & Hashing",
+      time: "February 19, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Arrays & Hashing concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week1_recap,
+    },
+    {
+      id: 6,
+      name: "Spring GBM",
+      time: "February 11, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Play games with CSE peers and learn more about the upcoming events planned for the semester!",
+      poster:
+        acm_spring_gbm_2026,
+    },
+    {
       id: 1,
       name: "From Zero to Crud Hero",
       time: "November 19, 2025 - 6:00 PM",
@@ -272,15 +282,6 @@ export const eventsData = {
       description:
         "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
       poster: fall_gbm,
-    },
-    {
-      id: 6,
-      name: "Spring GBM",
-      time: "February 11, 2026 - 6:30 PM",
-      location: "Davis 101",
-      description: "Play games with CSE peers and learn more about the upcoming events planned for the semester!",
-      poster:
-        acm_spring_gbm_2026,
     }
   ],
 };

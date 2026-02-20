@@ -15,7 +15,6 @@ const Footer = () => {
       href: "https://www.instagram.com/ubacm/",
       label: "Instagram",
     },
-    ,
     {
       href: "https://github.com/ubacm",
       icon: FaGithub,
@@ -65,11 +64,11 @@ const Footer = () => {
               </div>
               <div style={footerStyles.contactItem}>
                 <Mail style={footerStyles.icon} />
-                <span>ubacm@gmail.com</span>
+                <span>ubacm.org@gmail.com</span>
               </div>
               <div style={footerStyles.contactItem}>
                 <Calendar style={footerStyles.icon} />
-                <span>Events on Wednesdays 6:00 PM</span>
+                <span>Events on Thursdays 6:30 PM</span>
               </div>
             </div>
           </div>
