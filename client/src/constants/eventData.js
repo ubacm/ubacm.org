@@ -30,7 +30,7 @@ import leetnights_week3 from "../assets/events/2025-2026/leetnights_week3.png";
 import leetnights_week4 from "../assets/events/2025-2026/leetnights_week4.png";
 import leetnights_week5 from "../assets/events/2025-2026/leetnights_week5.png";
 import leetnights_week1_recap from "../assets/events/2025-2026/leetnights_week1_recap.png";
-
+import guide_to_personal from "../assets/events/2025-2026/guide_to_personal.png";
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -51,7 +51,15 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
-    
+    {
+      id: 1,
+      name: "Guide to Personal Projects",
+      time: "February 26, 2026 - 6:30 PM",
+      location: "Knox 109",
+      description: "Join our guided workshop to start building your own coding projects!",
+      poster:
+        guide_to_personal,
+    },
     {
       id: 2,
       name: "LeetNights - Two Pointers",
