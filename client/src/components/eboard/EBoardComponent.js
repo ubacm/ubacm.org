@@ -3,10 +3,32 @@ import { Calendar, Users, UserPlus } from "lucide-react";
 import { eBoardData } from "./../../constants/eboardData";
 import { eBoardStyles, mediaStyles } from "./eboardStyles";
 import ProfileCard from "./ProfileCard";
+import React, { useState, useEffect } from 'react';
+import { supabase } from "../../supabaseClient";
 
 const EBoard = () => {
   const [selectedYear, setSelectedYear] = useState("2025-2026");
   const years = ["2025-2026", "2024-2025", "2023-2024"];
+
+  // This use effect will grab all the current members from the eboard_members table; loop through and display all. 
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data, error } = await supabase.from('eboard_members').select('*');
+      if (error) console.log(error.message);
+      else setData(data);
+    };
+    fetchData();
+  }, [])
+
+  // This use effect will grab all the events from the events table; loop through and display all upcoming or past
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data, error } = await supabase.from('events').select('*');
+      if (error) console.log(error.message);
+      else setData(data);
+    };
+    fetchData();
+  }, [])
 
   return (
     <>
