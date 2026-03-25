@@ -52,24 +52,6 @@ export const eventsData = {
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
     {
-      id: 1,
-      name: "Guide to Personal Projects",
-      time: "February 26, 2026 - 6:30 PM",
-      location: "Knox 109",
-      description: "Join our guided workshop to start building your own coding projects!",
-      poster:
-        guide_to_personal,
-    },
-    {
-      id: 2,
-      name: "LeetNights - Two Pointers",
-      time: "March 5, 2026 - 6:30 PM",
-      location: "Knox 14",
-      description: "Learn Two Pointer concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
-      poster:
-        leetnights_week2,
-    },
-    {
       id: 3,
       name: "LeetNights - Sliding Window",
       time: "March 26, 2026 - 6:30 PM",
@@ -228,6 +210,24 @@ export const eventsData = {
     },
   ],
   "2025-2026": [
+    {
+      id: 9,
+      name: "Guide to Personal Projects",
+      time: "February 26, 2026 - 6:30 PM",
+      location: "Knox 109",
+      description: "Join our guided workshop to start building your own coding projects!",
+      poster:
+        guide_to_personal,
+    },
+    {
+      id: 8,
+      name: "LeetNights - Two Pointers",
+      time: "March 5, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Two Pointer concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week2,
+    },
     {
       id: 7,
       name: "LeetNights - Arrays & Hashing",
