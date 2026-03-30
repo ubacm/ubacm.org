@@ -31,6 +31,7 @@ import leetnights_week4 from "../assets/events/2025-2026/leetnights_week4.png";
 import leetnights_week5 from "../assets/events/2025-2026/leetnights_week5.png";
 import leetnights_week1_recap from "../assets/events/2025-2026/leetnights_week1_recap.png";
 import guide_to_personal from "../assets/events/2025-2026/guide_to_personal.png";
+import system_design_workshop from "../assets/events/2025-2026/system_design_acmm.png";
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -51,6 +52,15 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
+    {
+      id: 2,
+      name: "System Design Deep Dive",
+      time: "April 2, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn what interviewers look for in high-level system design rounds. Walk through Netflix's architecture as a case study with incoming Netflix SWE intern.",
+      poster:
+        system_design_workshop,
+    },
     {
       id: 3,
       name: "LeetNights - Sliding Window",
