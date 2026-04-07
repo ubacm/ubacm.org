@@ -53,33 +53,7 @@ export const eventsData = {
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
     {
-      id: 2,
-      name: "System Design Deep Dive",
-      time: "April 2, 2026 - 6:30 PM",
-      location: "Knox 14",
-      description: "Learn what interviewers look for in high-level system design rounds. Walk through Netflix's architecture as a case study with incoming Netflix SWE intern.",
-      poster:
-        system_design_workshop,
-    },
-    {
-      id: 3,
-      name: "LeetNights - Sliding Window",
-      time: "March 26, 2026 - 6:30 PM",
-      location: "Knox 14",
-      description: "Learn Sliding Window concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
-      poster:
-        leetnights_week3,
-    },
-    {
-      id: 4,
-      name: "LeetNights - Linked List",
-      time: "April 9th, 2026 - 6:30 PM",
-      location: "Knox 14",
-      description: "Learn Linked List concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
-      poster:
-        leetnights_week4,
-    },{
-      id: 5,
+      id: 1,
       name: "LeetNights - Trees",
       time: "April 23rd, 2026 - 6:30 PM",
       location: "Knox 14",
@@ -221,22 +195,40 @@ export const eventsData = {
   ],
   "2025-2026": [
     {
-      id: 9,
-      name: "Guide to Personal Projects",
-      time: "February 26, 2026 - 6:30 PM",
-      location: "Knox 109",
-      description: "Join our guided workshop to start building your own coding projects!",
+      id: 11,
+      name: "System Design Deep Dive",
+      time: "April 2, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn what interviewers look for in high-level system design rounds. Walk through Netflix's architecture as a case study with incoming Netflix SWE intern.",
       poster:
-        guide_to_personal,
+        system_design_workshop,
     },
     {
-      id: 8,
+      id: 10,
+      name: "LeetNights - Sliding Window",
+      time: "March 26, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn Sliding Window concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
+      poster:
+        leetnights_week3,
+    },
+    {
+      id: 9,
       name: "LeetNights - Two Pointers",
       time: "March 5, 2026 - 6:30 PM",
       location: "Knox 14",
       description: "Learn Two Pointer concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
       poster:
         leetnights_week2,
+    },
+    {
+      id: 8,
+      name: "Guide to Personal Projects",
+      time: "February 26, 2026 - 6:30 PM",
+      location: "Knox 109",
+      description: "Join our guided workshop to start building your own coding projects!",
+      poster:
+        guide_to_personal,
     },
     {
       id: 7,
@@ -257,7 +249,7 @@ export const eventsData = {
         acm_spring_gbm_2026,
     },
     {
-      id: 1,
+      id: 5,
       name: "From Zero to Crud Hero",
       time: "November 19, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -266,7 +258,7 @@ export const eventsData = {
       poster: zero_to_crud_hero,
     },
     {
-      id: 2,
+      id: 4,
       name: "Technical Interview Workshop",
       time: "October 22, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -284,7 +276,7 @@ export const eventsData = {
       poster: breaking_into_tech,
     },
     {
-      id: 4,
+      id: 2,
       name: "CSE Resume Workshop",
       time: "September 17, 2025 - 6:00 PM",
       location: "Davis 101",
@@ -293,7 +285,7 @@ export const eventsData = {
       poster: cse_resume_workshop,
     },
     {
-      id: 5,
+      id: 1,
       name: "Fall GBM",
       time: "September 10, 2025 - 6:00 PM",
       location: "Davis 101",
