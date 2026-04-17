@@ -32,6 +32,7 @@ import leetnights_week5 from "../assets/events/2025-2026/leetnights_week5.png";
 import leetnights_week1_recap from "../assets/events/2025-2026/leetnights_week1_recap.png";
 import guide_to_personal from "../assets/events/2025-2026/guide_to_personal.png";
 import system_design_workshop from "../assets/events/2025-2026/system_design_acmm.png";
+import agents_workshop from "../assests/events/2025-2026/agents_workshop.png";
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
@@ -52,16 +53,6 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
-    {
-      id: 1,
-      name: "LeetNights - Trees",
-      time: "April 23rd, 2026 - 6:30 PM",
-      location: "Knox 14",
-      description: "Learn Tree concepts, practice problem pattern detection and solve topic-based LeetCode with peers",
-      poster:
-        leetnights_week5,
-    }
-
   ],
   "2023-2024": [
     {
@@ -194,6 +185,14 @@ export const eventsData = {
     },
   ],
   "2025-2026": [
+    {
+      id: 12,
+      name: "Building with AI Agents",
+      time: "April 16, 2026 - 6:30 PM",
+      location: "Knox 14",
+      description: "Learn how to customize your own AI agent to build coding projects in a guided walkthrough. Learn how to bring your ideas to life by designing prompts, building workflows, and using AI effectively.",
+      poster: agents_workshop,
+    },
     {
       id: 11,
       name: "System Design Deep Dive",
