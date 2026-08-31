@@ -13,7 +13,7 @@ const PageViewTracker = () => {
 
   useEffect(() => {
     // Track page view when route changes
-    if (window.posthog) {
+    if (window.posthog && typeof window.posthog.capture === 'function') {
       window.posthog.capture('$pageview', {
         $current_url: window.location.href,
         pathname: location.pathname,

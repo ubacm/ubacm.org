@@ -5,8 +5,8 @@ import { eBoardStyles, mediaStyles } from "./eboardStyles";
 import ProfileCard from "./ProfileCard";
 
 const EBoard = () => {
-  const [selectedYear, setSelectedYear] = useState("2025-2026");
-  const years = ["2025-2026", "2024-2025", "2023-2024"];
+  const [selectedYear, setSelectedYear] = useState("2026-2027");
+  const years = ["2026-2027","2025-2026", "2024-2025", "2023-2024"];
 
   /*
   // This use effect will grab all the current members from the eboard_members table; loop through and display all. 
