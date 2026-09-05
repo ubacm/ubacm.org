@@ -33,12 +33,17 @@ import leetnights_week1_recap from "../assets/events/2025-2026/leetnights_week1_
 import guide_to_personal from "../assets/events/2025-2026/guide_to_personal.png";
 import system_design_workshop from "../assets/events/2025-2026/system_design_acmm.png";
 import agents_workshop from "../assets/events/2025-2026/agents_workshop.png";
+
+// 2025 - 2026 images:
+import fall_gbm_2026 from "../assets/events/2026-2027/fall_gbm_2026.png";
+
 // Categories
 export const categories = [
   { id: "upcoming", label: "Upcoming Events", icon: "Calendar" },
   { id: "2023-2024", label: "2023-2024", icon: "Calendar" },
   { id: "2024-2025", label: "2024-2025", icon: "Calendar" },
   { id: "2025-2026", label: "2025-2026", icon: "Calendar" },
+  { id: "2026-2027", label: "2026-2027", icon: "Calendar" },
 ];
 
 export const eventsData = {
@@ -291,6 +296,16 @@ export const eventsData = {
       description:
         "Connect with your CSE peers and learn about ACM and our upcoming plans for the semester!",
       poster: fall_gbm,
+    }
+  ],
+  "2026-2027": [
+    {
+      id: 1,
+      name: "Fall GBM",
+      time: "September 9, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Meet other CSE students and learn about ACM's events, workshops, and opportunities this semester.",
+      poster: fall_gbm_2026,
     }
   ],
 };
