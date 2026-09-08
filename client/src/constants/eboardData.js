@@ -24,6 +24,7 @@ import abou from "../assets/eboard/2025-2026/abou.jpeg";
 import alex from "../assets/eboard/2026-2027/alex.png";
 import mafruha from "../assets/eboard/2026-2027/mafruha.jpg";
 import tashawna from "../assets/eboard/2026-2027/tashawna.png";
+import oscar from "../assets/eboard/2026-2027/oscar.jpg";
 
 export const eBoardData = {
   "2023-2024": [
@@ -234,6 +235,13 @@ export const eBoardData = {
       role: "Public Relations Coordinator",
       image: tashawna,
       linkedin: "https://www.linkedin.com/in/tashawnaa/",
+    },
+    {
+      id: 23,
+      name: "Oscar Guerrero",
+      role: "Software Engineering Chair",
+      image: oscar,
+      linkedin: "https://www.linkedin.com/in/oscargabrguerrero",
     }
   ],
 };
