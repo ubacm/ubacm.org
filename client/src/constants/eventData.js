@@ -34,8 +34,9 @@ import guide_to_personal from "../assets/events/2025-2026/guide_to_personal.png"
 import system_design_workshop from "../assets/events/2025-2026/system_design_acmm.png";
 import agents_workshop from "../assets/events/2025-2026/agents_workshop.png";
 
-// 2025 - 2026 images:
+// 2026 - 2027 images:
 import fall_gbm_2026 from "../assets/events/2026-2027/fall_gbm_2026.png";
+import resume_roast_2026 from "../assets/events/2026-2027/RESUMEROAST43VERS.png";
 
 // Categories
 export const categories = [
@@ -58,6 +59,14 @@ export const eventsData = {
     //   poster:
     //     "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
     // },
+    {
+      id: 1,
+      name: "CSE Resume Roast",
+      time: "September 16, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Resume advice that helped break into tech and land SWE offers at companies like Netflix, Liberty Mutual, Uber, LinkedIn, Salesforce, MongoDB, Datadog, Bloomberg.",
+      poster: resume_roast_2026,
+    }
   ],
   "2023-2024": [
     {
@@ -299,6 +308,14 @@ export const eventsData = {
     }
   ],
   "2026-2027": [
+    {
+      id: 2,
+      name: "CSE Resume Roast",
+      time: "September 16, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Resume advice that helped break into tech and land SWE offers at companies like Netflix, Liberty Mutual, Uber, LinkedIn, Salesforce, MongoDB, Datadog, Bloomberg.",
+      poster: resume_roast_2026,
+    },
     {
       id: 1,
       name: "Fall GBM",
