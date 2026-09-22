@@ -25,6 +25,7 @@ import techical_interview from "../assets/events/2025-2026/recap_technical_inter
 import zero_to_crud_hero from "../assets/events/2025-2026/zero_to_crud_hero.png";
 
 import acm_spring_gbm_2026 from "../assets/events/2025-2026/acm_spring_gbm_26.png";
+import leetnights_week1 from "../assets/events/2025-2026/leetnights_week1.png";
 import leetnights_week2 from "../assets/events/2025-2026/leetnights_week2.png";
 import leetnights_week3 from "../assets/events/2025-2026/leetnights_week3.png";
 import leetnights_week4 from "../assets/events/2025-2026/leetnights_week4.png";
@@ -61,11 +62,11 @@ export const eventsData = {
     // },
     {
       id: 1,
-      name: "CSE Resume Roast",
-      time: "September 16, 2026 - 6:30 PM",
+      name: "LeetNights - Arrays & Hashing",
+      time: "September 23, 2026 - 6:30 PM",
       location: "Davis 101",
-      description: "Resume advice that helped break into tech and land SWE offers at companies like Netflix, Liberty Mutual, Uber, LinkedIn, Salesforce, MongoDB, Datadog, Bloomberg.",
-      poster: resume_roast_2026,
+      description: "Join UB ACM for Week 1 of our biweekly interview prep series; we'll be getting started with Arrays & Hashing! We’ll cover key concepts, practice recognizing patterns, and solve problems together through live coding. All experience levels are welcome; just make sure to bring a laptop so we can start getting you guys interview-ready!",
+      poster: leetnights_week1,
     }
   ],
   "2023-2024": [
@@ -308,6 +309,14 @@ export const eventsData = {
     }
   ],
   "2026-2027": [
+    {
+      id: 3,
+      name: "LeetNights - Arrays & Hashing",
+      time: "September 23, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Join UB ACM for Week 1 of our biweekly interview prep series; we'll be getting started with Arrays & Hashing! We’ll cover key concepts, practice recognizing patterns, and solve problems together through live coding. All experience levels are welcome; just make sure to bring a laptop so we can start getting you guys interview-ready!",
+      poster: leetnights_week1,
+    },
     {
       id: 2,
       name: "CSE Resume Roast",
