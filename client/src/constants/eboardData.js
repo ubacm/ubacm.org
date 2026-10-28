@@ -27,7 +27,7 @@ import tashawna from "../assets/eboard/2026-2027/tashawna.png";
 import oscar from "../assets/eboard/2026-2027/oscar.jpg";
 import imman from "../assets/eboard/2026-2027/imman.jpg";
 import mokshada from "../assets/eboard/2026-2027/mokshada.jpg";
-
+import sergio from "../assets/eboard/2026-2027/sergio.png";
 export const eBoardData = {
   "2023-2024": [
     {
@@ -258,6 +258,13 @@ export const eBoardData = {
       role: "Underclassmen Representative",
       image: mokshada,
       linkedin: "https://www.linkedin.com/in/mokshada-desale-aaba84342",
+    }
+    {
+      id:26,
+      name: "Sergio Zapata",
+      role: "Underclassmen Representative",
+      image: sergio,
+      linkedin: "https://www.linkedin.com/in/sergio-zapata-286053300/"
     }
   ],
 };
