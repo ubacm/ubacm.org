@@ -258,7 +258,7 @@ export const eBoardData = {
       role: "Underclassmen Representative",
       image: mokshada,
       linkedin: "https://www.linkedin.com/in/mokshada-desale-aaba84342",
-    }
+    },
     {
       id:26,
       name: "Sergio Zapata",
@@ -266,5 +266,5 @@ export const eBoardData = {
       image: sergio,
       linkedin: "https://www.linkedin.com/in/sergio-zapata-286053300/"
     }
-  ],
-};
+  ]
+}
