@@ -39,6 +39,7 @@ import agents_workshop from "../assets/events/2025-2026/agents_workshop.png";
 import fall_gbm_2026 from "../assets/events/2026-2027/fall_gbm_2026.png";
 import resume_roast_2026 from "../assets/events/2026-2027/RESUMEROAST43VERS.png";
 import acm_swe_panel_2026 from "../assets/events/2026-2027/acm_sotware_engin_panel_poster.png";
+import sql_workshop_2026 from "../assets/events/2026-2027/sql_workshop.png";
 
 // Categories
 export const categories = [
@@ -63,11 +64,11 @@ export const eventsData = {
     // },
     {
       id: 1,
-      name: "ACM Software Engineer Panel",
-      time: "September 30, 2026 - 6:30 PM",
+      name: "ACM SQL Workshop",
+      time: "November 11, 2026 - 6:30 PM",
       location: "Davis 101",
-      description: "Interested in Software Engineering or looking to break into Big Tech? Come hear directly from fellow UB students who have landed SWE internships at companies like Google, Netflix, IBM, PwC, SpaceX, Toshiba, and Liberty Mutual!",
-      poster: acm_swe_panel_2026,
+      description: "Learn the fundamentals of SQL and gain hands-on experience with database queries using a scalable project. Perfect for beginners and those looking to refresh their SQL skills!",
+      poster: sql_workshop_2026,
     }
   ],
   "2023-2024": [
@@ -310,6 +311,14 @@ export const eventsData = {
     }
   ],
   "2026-2027": [
+    {
+      id: 5,
+      name: "ACM SQL Workshop",
+      time: "November 11, 2026 - 6:30 PM",
+      location: "Davis 101",
+      description: "Learn the fundamentals of SQL and gain hands-on experience with database queries using a scalable project. Perfect for beginners and those looking to refresh their SQL skills!",
+      poster: sql_workshop_2026,
+    },
     {
       id: 4,
       name: "ACM Software Engineer Panel",
