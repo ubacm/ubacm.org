@@ -27,6 +27,7 @@ import tashawna from "../assets/eboard/2026-2027/tashawna.png";
 import oscar from "../assets/eboard/2026-2027/oscar.jpg";
 import imman from "../assets/eboard/2026-2027/imman.jpg";
 import mokshada from "../assets/eboard/2026-2027/mokshada.jpg";
+import joanna from "../assets/eboard/2026-2027/joanna.png";
 
 export const eBoardData = {
   "2023-2024": [
@@ -258,6 +259,13 @@ export const eBoardData = {
       role: "Underclassmen Representative",
       image: mokshada,
       linkedin: "https://www.linkedin.com/in/mokshada-desale-aaba84342",
+    },
+    {
+      id: 26,
+      name: "Joanna Arevalo",
+      role: "Underclassmen Representative",
+      image: joanna,
+      linkedin: "https://www.linkedin.com/in/joannaarevalo",
     }
   ],
 };
